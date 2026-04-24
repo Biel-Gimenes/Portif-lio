@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio profissional."
+    />
+    <title>Portfólio | Desenvolvedor Júnior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="brand">Dev Júnior</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section home">
+        <div class="container home-content reveal">
+          <p class="tagline">Disponível para oportunidades</p>
+          <h1>Gabriel Gimenes</h1>
+          <h2>Desenvolvedor Front-End Júnior </h2>
+          <p class="intro">
+            Estou em busca de uma oportunidade para colocar em pratica meus conhecimentos e aprender cada vez mais.
+          </p>
+          <div class="actions">
+            <a
+              class="btn btn-primary"
+              href="https://github.com/Biel-Gimenes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              class="btn btn-secondary"
+              href="https://www.linkedin.com/in/gabriel-de-melo-gimenes-165601235/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <div class="container reveal">
+          <h2 class="section-title">Sobre</h2>
+          <p class="section-text">
+            Sou um desenvolvedor em início de carreira tenho um base sólida em logica de programação. 
+            Atualmente estou estudando para me tornar um desenvolvedor full stack. Tenho facilidade para
+            trabalhar em equipe, resolver problemas. estou estudando para me tornar Desenvolvedor Full Stack com foco em JavaScript e React. 
+            Sou formando em Análise e Desenvolvimento de Sistemas pela Faculdade anhanguera. 
+          </p>
+          <div class="tech-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript (ES6+)</span>
+            <span>Git e GitHub</span>
+            <span>Responsividade</span>
+            <span>Acessibilidade</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="section">
+        <div class="container reveal">
+          <h2 class="section-title">Projetos</h2>
+          <p class="section-text">
+            Alguns exemplos de projetos para demonstrar habilidades técnicas e
+            capacidade de entrega.
+          </p>
+          <div id="projectsContainer" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="contato" class="section">
+        <div class="container reveal">
+          <h2 class="section-title">Contato</h2>
+          <p class="section-text">
+            Vamos conversar sobre oportunidades, freelas ou colaborações.
+          </p>
+          <div class="contact-links">
+            <a
+              href="https://github.com/Biel-Gimenes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/gabriel-de-melo-gimenes-165601235/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a href="mailto:gimenesgabriel732@gmail.com">gimenesgabriel732@gmail.com</a>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Gabriel Gimenes. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
