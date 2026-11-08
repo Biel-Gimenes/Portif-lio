@@ -24,31 +24,6 @@ const projects = [
     demo: "",
   },
   {
-    name: "LP com JavaScript",
-    description:
-      "Projeto de lógica de programação com JavaScript em página web; publicado na Vercel.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Biel-Gimenes/LP-COM-JS",
-    demo: "https://lp-com-js.vercel.app",
-  },
-  {
-    name: "Jornada Viagens",
-    description:
-      "Site de jornada de viagens desenvolvido no curso de front-end da Alura.",
-    technologies: ["HTML", "CSS"],
-    github: "https://github.com/Biel-Gimenes/jornada_viagens",
-    demo: "https://jornada-viagens-xi-self.vercel.app",
-    construction: true,
-  },
-  {
-    name: "Sorteador de números",
-    description:
-      "Aplicação web para sortear números dentro de um intervalo definido.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Biel-Gimenes/Sorteador-de-numeros",
-    demo: "https://vdeploy-sorteador.vercel.app",
-  },
-  {
     name: "Desafio Python — Banco",
     description:
       "Desafio de programação orientada a objetos simulando operações bancárias em Python.",
