@@ -1,5 +1,29 @@
 const projects = [
   {
+    name: "Kurio — Marketplace de NFTs",
+    description:
+      "Marketplace de NFTs com fluxo completo: busca e filtros, detalhe da obra, carrinho com cupom, checkout, pedidos e perfil. API simulada com MSW e dados persistidos no navegador.",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "MSW"],
+    github: "https://github.com/Biel-Gimenes/kurio-marketplace-Desafio",
+    demo: "https://kurio-marketplace-nine.vercel.app",
+  },
+  {
+    name: "Pokédex",
+    description:
+      "Primeiro projeto para treinar React e Tailwind, consumindo uma API de Pokémon com Axios.",
+    technologies: ["React", "Vite", "Tailwind CSS", "Axios"],
+    github: "https://github.com/Biel-Gimenes/Pokedex",
+    demo: "https://pokedex-psi-rouge-48.vercel.app",
+  },
+  {
+    name: "Formatação Iris",
+    description:
+      "Ferramenta web que formata tarefas (linha compacta ou tabela do Excel) e copia o resultado como tabela para o Microsoft Teams.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Biel-Gimenes/Formatacao-iris",
+    demo: "",
+  },
+  {
     name: "LP com JavaScript",
     description:
       "Projeto de lógica de programação com JavaScript em página web; publicado na Vercel.",
